@@ -1,0 +1,75 @@
+/* Apartado 1 */
+h2 {
+    color: blue;
+}
+
+/* Apartado 2 */
+acronym:hover {
+    color: red;
+}
+
+/* Apartado 3 */
+h1 + p {
+    font-size: 115%;
+}
+
+/* Apartado 4 */
+span {
+    text-decoration: underline;
+    color: green;
+}
+
+/* Apartado 5 */
+img[title*= "DeLorean"] {
+    border: 2px dotted red;
+}
+
+/* Apartado 6 */
+img[title="Detalle del motor"] {
+    width: 500px;
+}
+
+/* Apartado 7: ponemos la etiqueta span a VIN y le ponemos una id en el html que usamos aquí */
+#vin{
+    color: purple;
+    text-decoration: none;
+}
+
+/* Apartado 8 */
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: green;
+}
+
+/* Apartado 9 */
+li > ul {
+    font-weight: bold;
+}
+
+/* Apartado 10: añadimos el contenido que queremos hacer más pequeño a un section en el html */
+section {
+    font-size: small;
+}
+
+/* Apartado 11: le ponemos el atributo footer al pie de página en el html */
+footer {
+    color: rgb(179, 174, 174);
+    text-align: right;
+}
+
+/* Apartado 12 */
+li:nth-child(2) {
+    color: darkkhaki;
+}
+
+/* Apartado 14 */
+p::first-letter {
+    font-size: 50px;
+}
