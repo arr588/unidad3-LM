@@ -30,7 +30,7 @@ img[title="Detalle del motor"] {
 }
 
 /* Apartado 7: ponemos la etiqueta span a VIN y le ponemos una id en el html que usamos aquí */
-#vin{
+span.vin{
     color: purple;
     text-decoration: none;
 }
