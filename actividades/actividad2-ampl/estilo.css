@@ -29,12 +29,12 @@
     background-color: transparent;
 }
 
-/*.seleccionado {
+.seleccionado {
     position: relative;
     top: 1px;
     color: black;
-    background: initial;
-}*/
+    background: transparent;
+}
 
 #contenido {
     border: #c0c0c0 1px solid;
