@@ -9,23 +9,32 @@
 
 #principal li {
     display: inline;
-    background: #ff761a67;
-    background-size: 110%;
+    position: relative;
+    bottom: 1px;
     padding: 2px 0px 2px 0px;
+    border: solid 1px #ff751a;
+    border-bottom: 0px;
 }
 
 #principal li a {
-    border: solid 1px #ff751a;
-    border-bottom: 0px;
     color: #a0a0a0;
     padding: 2px;
     text-decoration: none;
+    background: #ff761a67;
 }
 
-.seleccionado {
+#principal li a:hover {
+    color: black;
+    position: relative;
+    background-color: transparent;
+}
+
+/*.seleccionado {
     position: relative;
     top: 1px;
-}
+    color: black;
+    background: initial;
+}*/
 
 #contenido {
     border: #c0c0c0 1px solid;
