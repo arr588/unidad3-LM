@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Posicionamiento</title>
+		<meta charset="utf-8"/>
+		<meta name="author" content="pablo"/>
+		<style>
+			* {border: 2px solid; text-align: center; margin: 20px;}
+			html {border: 4px solid;}
+			body {border: dotted;}
+			h1, h2 {background-color: pink;}
+			a {background-color: yellow;}
+
+			#contenedor {border: 1px solid #ccc; background-color: salmon;width:800px;height:400px;}
+			#contenido {border: 1px solid #ccc; background-color: #fff5cc;width:100px;height:100px;}
+
+			#seccion-cookies {width: 60%; margin: 0 auto; background-color: #ecffe6;}
+
+			.abajo {
+				position: relative;
+				top: 10px;
+			}
+
+			.mas_abajo {
+				position: relative;
+				bottom: 10px;
+			}
+
+			#contenido {
+				position: absolute;
+				top: 100px;
+			}
+
+		</style> 
+	</head>
+	<body>
+		<h1>Bienvenidos a CSS</h1>
+		<h2>Posicionamiento</h2>
+		<p> PARRAFO 1:
+			<a href="#">Enlace 1</a> 
+			<a href="#">Enlace 2</a> 
+			<a href="#">Enlace 3</a>
+		</p>
+		<p> PARRAFO 2:
+			<a href="#">Enlace 1</a> 
+			<a href="#" class="abajo">Enlace 2</a> 
+			<a href="#" class="mas_abajo">Enlace 3</a>
+		</p>
+
+		<div id="contenedor">
+			<div id="contenido">
+				<p>PARRAFO 3</p>
+			</div>
+		</div>
+
+		<section>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur laoreet tellus metus, et ultricies ex pellentesque ac. Maecenas fermentum augue libero, eget pulvinar justo malesuada ornare. Nulla facilisi. Aenean ultricies, lorem sit amet accumsan maximus, massa lorem sollicitudin risus, sit amet pellentesque ipsum leo nec lectus. Nam interdum eget purus laoreet dictum. Suspendisse potenti. Fusce ornare nulla id neque sodales, fermentum ultrices tortor sagittis. Suspendisse potenti. Ut dui magna, luctus non finibus quis, lacinia a purus. Nulla vel nisl purus. Suspendisse felis sapien, pretium sed tempor quis, lobortis eu metus. Integer viverra eleifend aliquam. Pellentesque vel sodales elit, ac lacinia odio.</p>
+
+			<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam vitae tortor mollis nulla porttitor facilisis iaculis a lectus. Aliquam erat volutpat. In dictum magna eget lectus dictum, in aliquet ligula interdum. Morbi dignissim mattis mauris, quis imperdiet tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus at tincidunt elit, eget luctus mi. Praesent blandit ut mauris at pellentesque.</p>
+
+			<p>Duis eu dolor id purus suscipit tempus quis vitae urna. Aliquam pellentesque enim risus, nec varius mauris mollis a. Sed venenatis tortor lectus, nec accumsan tellus fringilla et. Phasellus id risus eget augue laoreet semper. Etiam iaculis purus id nibh interdum, et fermentum lacus fermentum. Ut nec felis non ante sodales posuere. Nullam fermentum lobortis enim et volutpat. Nulla vel pretium ligula. Vivamus auctor suscipit ante, et condimentum tellus accumsan non. Fusce finibus pellentesque mattis. Pellentesque a tincidunt lacus, quis sagittis velit. Nunc fermentum arcu quis leo imperdiet, at consectetur nisi euismod. Ut vel nibh sed erat vehicula vestibulum. Vivamus auctor urna sit amet dui molestie vehicula. Integer aliquam mattis diam, vitae ullamcorper augue luctus et.</p>
+		</section>
+
+		<section id="seccion-cookies">
+			<p>Acepta las cookies</p>
+			<button>Ok</button>
+		</section>
+	</body> 
+</html>

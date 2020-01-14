@@ -1,0 +1,22 @@
+/* Las urls de las imágenes son: */
+/* ../images/bricks.jpg */
+/* ../images/galactic-empire.png */
+/*../images/cartel.png */
+
+body {
+	background-image: url('../images/bricks.jpg');
+	background-repeat: repeat;
+}
+.capa{
+	width: 500px;
+	background-color: #cfa960;
+}
+
+.capa2 {
+	width: 400px;
+	height: 400px;
+	border: 1px solid #c0c0c0;
+	background-image: url('../images/galactic-empire.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
